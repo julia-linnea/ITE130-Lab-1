@@ -9,4 +9,4 @@ CSS skiljer sig från HTML, eftersom HTML är till för att strukturera informat
 
 ![Bild som visar CSS-kod i HTML-fil](Images/CSS.png "CSS")
 
-I det här exemplet så kan vi se att rubriken, H1, är blå och typsnittet är Helvetica. Det här är skrivet med CSS i ett HTML-dokument.
+I det här exemplet så kan vi se att rubriken, H1, är blå och typsnittet är Helvetica. Det här är skrivet med CSS i ett HTML-dokument. I detta exempel är det en "embedded style", eller "internal style". Det betyder att CSS-koden ligger direkt i HTML-dokumentet och påverkar bara det dokumentet.
