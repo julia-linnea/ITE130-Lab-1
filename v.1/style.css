@@ -14,7 +14,7 @@ h1 {
     font-size: 100px;
     text-shadow: 5px 5px 5px #f5a768;
     } 
-p { 
+    h2 { 
     text-align: center;
     border-bottom-style: none;
     border-width: 1px;
@@ -24,4 +24,26 @@ p {
     font-family: "helvetica";
     font-size: 50px;
     text-shadow: 2px 2px 2px #f5a768;
+        } 
+p { 
+    text-align: center;
+    border-bottom-style: double;
+    border-width: 1px;
+    border-radius: 80px;
+    padding: 16px;
+    color: rgb(255, 255, 255);
+    font-family: "helvetica";
+    font-size: 25px;
+    text-shadow: 2px 2px 2px #f5a768;
 } 
+
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.imagecontainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
