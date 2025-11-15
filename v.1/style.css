@@ -1,8 +1,21 @@
+:root {
+  --bs-link-color:#ffffff;
+  --bs-link-hover-color:#f5dddd;
+  --bs-border-color:#f8b47c;
+  --bs-nav-pills-link-active-bg: #ffffff;
+  --bullens-favorit: #f5a66582;
+  
+}
 body {
     background: linear-gradient(#f8b47c, rgb(255, 213, 179))
     no-repeat
     fixed
     }
+
+.nav-pills {
+    --bs-nav-pills-link-active-bg: var(--bullens-favorit);
+}
+
 h1 { 
     text-align: center;
     border-top-style: double;
@@ -13,7 +26,8 @@ h1 {
     font-family: "helvetica";
     font-size: 100px;
     text-shadow: 5px 5px 5px #f5a768;
-    } 
+   
+} 
     h2 { 
     text-align: center;
     border-bottom-style: none;
@@ -37,6 +51,10 @@ p {
     text-shadow: 2px 2px 2px #f5a768;
 } 
 
+a {
+    text-decoration: none;
+}
+
 .page-wrapper {
   display: flex;
   justify-content: center;
@@ -51,7 +69,7 @@ p {
 .button-primary {
 display: block;
 margin: 0 auto;
-background-color: #f5a66582;
+background-color: var(--bullens-favorit);
   color: #ffffff;
   
   padding: 16px 32px;
@@ -65,3 +83,55 @@ background-color: #f5a66582;
 .button-primary:hover {
   background-color: #f5a768;
 }
+
+.dropbtn {
+background-color: #f5a76800;
+color: #ffffff;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #f5a768;
+    z-index: 1;
+}
+
+.dropdown-content ul {
+    background-color: #f5a768ee;
+    
+
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.rounded-2 { 
+    background-color: rgba(0, 255, 255, 0);
+    color:#ffffff; 
+}
+
+
+.rounded-2 #active {
+    background-color: #f5a768;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
