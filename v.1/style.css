@@ -52,17 +52,16 @@ p {
 display: block;
 margin: 0 auto;
 background-color: #f5a66582;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   
   padding: 16px 32px;
   border-style: none;
   border-width: 0px;
-  border:rgb(255, 255, 255);
+  border:#ffffff;
   border-radius: 6px;
   font-size: 24px;
   cursor: pointer;
 }
 .button-primary:hover {
   background-color: #f5a768;
-
 }
